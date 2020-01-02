@@ -11,7 +11,22 @@ Following Projects:
 [贪吃蛇][snake-ga]
 
 #### Part I (第一部分): Simulate Basic Game Environment(模拟简单的游戏环境)
+RL是基于环境而进行决策，所以模拟游戏环境将是最基础且复杂的第一步。
+利用OpenAI的Gym工具包，可以通过python代码简单实现模拟一些类似Atari的简单游戏。
+{% highlight python %}
+import gym
+env = gym.make("CartPole-v1")
+observation = env.reset()
+for _ in range(1000):
+  env.render()
+  action = env.action_space.sample() # your agent here (this takes random actions)
+  observation, reward, done, info = env.step(action)
 
+  if done:
+    observation = env.reset()
+env.close()
+{% endhighlight %}
+<iframe width="420" height="315" src="https://www.youtube.com/watch?v=J7E6_my3CHk" frameborder="0" allowfullscreen></iframe>
 #### Part II (第二部分): Reward Function(奖励规则)
 
 #### References:
