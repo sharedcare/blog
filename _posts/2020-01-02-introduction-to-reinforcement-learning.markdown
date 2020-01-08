@@ -6,12 +6,16 @@ categories: tutorial
 ---
 ### Chapter I (第一章): Teach AI to Play Games(教AI玩游戏)
 强化学习(以下简称RL)在游戏中有着独特的优势。在这一章节，通过完成游戏AI来深入了解RL的原理。
+Google's DeepMind在这一领域中有很多研究，例如AlphaGo的最终版本[AlphaZero][alpha-zero]以及称霸StarCraft II的[AlphaStar][alpha-star]。
+
 
 **Following Projects:**
 
 以下是一些通过RL制作的游戏AI项目，可供参考:
 
 - [贪吃蛇][snake-ga]
+- [躲猫猫][hide-and-seek]
+- [Mario][mario]
 
 #### Part I (第一部分): Simulate Basic Game Environment(模拟简单的游戏环境)
 RL是基于环境而进行决策，所以模拟游戏环境将是最基础且复杂的第一步。
@@ -34,6 +38,13 @@ env.close()
 
 #### References:
 [Gym-OpenAI][gym]
+[DeepMind][deepmind]
 
 [gym]: https://gym.openai.com/
+[deepmind]: https://deepmind.com/blog
 [snake-ga]: https://github.com/maurock/snake-ga
+[hide-and-seek]: https://openai.com/blog/emergent-tool-use/
+[mario]: http://pastebin.com/ZZmSNaHX
+[alpha-zero]: https://deepmind.com/blog/article/alphazero-shedding-new-light-grand-games-chess-shogi-and-go
+[alpha-star]: https://deepmind.com/blog/announcements/deepmind-and-blizzard-open-starcraft-ii-ai-research-environment
+
