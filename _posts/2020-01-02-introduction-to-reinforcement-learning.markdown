@@ -7,7 +7,12 @@ categories: tutorial
 ### Chapter I (第一章): Teach AI to Play Games(教AI玩游戏)
 强化学习(以下简称RL)在游戏中有着独特的优势。在这一章节，通过完成游戏AI来深入了解RL的原理。
 Google's DeepMind在这一领域中有很多研究，例如AlphaGo的最终版本[AlphaZero][alpha-zero]以及称霸StarCraft II的[AlphaStar][alpha-star]。
+OpenAI在RL方面也有诸多贡献，尤其是开源的[游戏环境][openai-env]以及他们最近在[Multi-Agent][openai-multi-agent-paper]上的研究成果。
+经典的强化学习结构:
 
+![reinforcement learning frame](/assets/imgs/2020-01-02-introduction-to-reinforcement-learning/rl_diagram.png)
+
+进一步了解[Q-learning][q-learning]以及它的变种[Deep Q-learning][deep-ql]和[Double Q-learning][double-ql]
 
 **Following Projects:**
 
@@ -17,7 +22,7 @@ Google's DeepMind在这一领域中有很多研究，例如AlphaGo的最终版�
 - [躲猫猫][hide-and-seek]
 - [Mario][mario]
 
-#### Part I (第一部分): Simulate Basic Game Environment(模拟简单的游戏环境)
+#### Part I (第一部分): Create Basic Game Environment(模拟简单的游戏环境)
 RL是基于环境而进行决策，所以模拟游戏环境将是最基础且复杂的第一步。
 利用OpenAI的Gym工具包，可以通过python代码简单实现模拟一些类似Atari的简单游戏。
 {% highlight python %}
@@ -39,12 +44,16 @@ env.close()
 #### References:
 [Gym-OpenAI][gym]
 [DeepMind][deepmind]
-
 [gym]: https://gym.openai.com/
 [deepmind]: https://deepmind.com/blog
+[q-learning]: https://en.wikipedia.org/wiki/Q-learning
+[deep-ql]: https://arxiv.org/pdf/1704.03732.pdf
+[double-ql]: https://papers.nips.cc/paper/3964-double-q-learning.pdf
 [snake-ga]: https://github.com/maurock/snake-ga
 [hide-and-seek]: https://openai.com/blog/emergent-tool-use/
 [mario]: http://pastebin.com/ZZmSNaHX
+[openai-env]: https://gym.openai.com/
+[openai-multi-agent-paper]: https://arxiv.org/pdf/1909.07528.pdf
 [alpha-zero]: https://deepmind.com/blog/article/alphazero-shedding-new-light-grand-games-chess-shogi-and-go
 [alpha-star]: https://deepmind.com/blog/announcements/deepmind-and-blizzard-open-starcraft-ii-ai-research-environment
 
