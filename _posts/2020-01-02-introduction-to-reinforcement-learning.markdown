@@ -39,6 +39,7 @@ for _ in range(1000):
 env.close()
 {% endhighlight %}
 <iframe width="560" height="315" src="https://www.youtube.com/embed/J7E6_my3CHk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 #### Part II (第二部分): Reward Function(奖励规则)
 
 #### References:
