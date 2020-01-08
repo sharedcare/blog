@@ -45,6 +45,8 @@ env.close()
 #### References:
 [Gym-OpenAI][gym]
 [DeepMind][deepmind]
+
+
 [gym]: https://gym.openai.com/
 [deepmind]: https://deepmind.com/blog
 [q-learning]: https://en.wikipedia.org/wiki/Q-learning
