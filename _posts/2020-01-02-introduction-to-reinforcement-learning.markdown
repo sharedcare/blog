@@ -8,9 +8,8 @@ categories: tutorial
 强化学习(以下简称RL)在游戏中有着独特的优势。在这一章节，通过完成游戏AI来深入了解RL的原理。
 Google's DeepMind在这一领域中有很多研究，例如AlphaGo的最终版本[AlphaZero][alpha-zero]以及称霸StarCraft II的[AlphaStar][alpha-star]。
 OpenAI在RL方面也有诸多贡献，尤其是开源的[游戏环境][openai-env]以及他们最近在[Multi-Agent][openai-multi-agent-paper]上的研究成果。
-经典的强化学习结构:
 
-![reinforcement learning frame](/assets/imgs/2020-01-02-introduction-to-reinforcement-learning/rl_diagram.png)
+{% include image.html url="/assets/imgs/2020-01-02-introduction-to-reinforcement-learning/rl_diagram.png" description="经典的强化学习结构" %}
 
 进一步了解[Q-learning][q-learning]以及它的变种[Deep Q-learning][deep-ql]和[Double Q-learning][double-ql]
 
@@ -43,7 +42,9 @@ env.close()
 #### Part II (第二部分): Reward Function(奖励规则)
 
 #### References:
+
 [Gym-OpenAI][gym]
+
 [DeepMind][deepmind]
 
 
