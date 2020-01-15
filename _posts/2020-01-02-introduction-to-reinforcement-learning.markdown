@@ -3,7 +3,9 @@ layout: post
 title:  "Introduction to Reinforcement Learning!"
 date:   2020-01-02 19:35:42 +0800
 categories: tutorial
+comment_id: 4
 ---
+
 ### Chapter I (第一章): Teach AI to Play Games(教AI玩游戏)
 强化学习(以下简称RL)在游戏中有着独特的优势。在这一章节，通过完成游戏AI来深入了解RL的原理。
 Google's DeepMind在这一领域中有很多研究，例如AlphaGo的最终版本[AlphaZero][alpha-zero]以及称霸StarCraft II的[AlphaStar][alpha-star]。
