@@ -1,4 +1,6 @@
 _site
 .sass-cache
 .jekyll-metadata
-old-blog
+.DS_Store
+.idea/
+old-blog/
