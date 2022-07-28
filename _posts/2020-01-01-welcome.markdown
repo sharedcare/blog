@@ -1,0 +1,13 @@
+---
+title:  "Welcome to Tchen's Blog"
+date:   2020-01-01 00:00:00 +0800
+categories: intro
+comment_id: 4
+---
+
+### Welcome to Tchen's personal blog. 
+In this blog, I will upload some useful posts sharing food 🍱🍲🥘 and life experiences 🎞. In addition, I will also share some tech miscellanies📱 and interesting tools 🛠(including tutorials).
+
+The original purpose of this blog was to share some of the technology I've been learning about.
+
+I am a researcher focusing on AI direction, but I also focus on some development projects that are not related to AI, you can learn more about me at [About Tchen](https://tchen.net/). I hope you can also learn something new through my blog posts. And I also want to share the recommended food or travel spots in my personal life through this platform. 

@@ -3,6 +3,10 @@ _site
 .jekyll-metadata
 .DS_Store
 .DS_Store?
+.bundle/
 .idea/
 old-blog/
 notablog/
+old/
+Gemfile*
+vendor/
