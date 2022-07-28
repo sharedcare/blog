@@ -8,15 +8,6 @@ mathjax_autoNumber: True
 ---
 # DQN is All You Need
 
-date: May 7, 2022
-description: Since the emergence of DQN, scholars have proposed various improvements to it. This post will focus on six of the major improvements, which are eventually integrated into the Rainbow model.
-inList: Yes
-inMenu: No
-publish: Yes
-tags: EN, Reinforcement Learning
-template: post
-url: rainbow-dqn
-
 Rainbow is a method to combine all six improvements in Deep Q-Network(DQN). Since the emergence of DQN, scholars have proposed various improvements to it. This post will focus on six of the major improvements, which are eventually integrated into the **Rainbow** model.
 
 # Deep Q-Network
