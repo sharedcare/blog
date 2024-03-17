@@ -50,7 +50,7 @@ Due to the capabilities of lidar, environmental reconstruction through mapping w
 Navigation plays a key role in the functionality of mobile robots, a technology commonly utilized and developed for autonomous driving. Path planning involves the use of perception data by robots to calculate a feasible route to a specified destination. Generally, planning is categorized into global path planning and local path planning.
 
 - **Global path planning** entails determining an optimal path within the entire environment through global mapping and GPS based on the map.
-    - **Search-based Path Planning Algorithm:** **A*** combines the advantages of **BFS (Breadth First Search)** and **Dijkstra’s algorithm**, calculating the priority of each node during the search process. The priority calculation formula for a node is given by:
+    - **Search-based Path Planning Algorithm:** **A\*** combines the advantages of **BFS (Breadth First Search)** and **Dijkstra’s algorithm**, calculating the priority of each node during the search process. The priority calculation formula for a node is given by:
         
         $$
         f(n)=g(n)+h(n)
@@ -67,8 +67,9 @@ Navigation plays a key role in the functionality of mobile robots, a technology 
             <img class="image image--xl" style="width: 32em;" src="/assets/imgs/2023-10-05-ai-robot/astar.gif"/> 
         </div>
 
-    - **Sampling-based Path Planning Algorithm:** **RRT (Rapidly exploring Random Tree)** is an efficient planning method in multi-dimensional space.
-        
+    - **Sampling-based Path Planning Algorithm:**
+
+        **RRT (Rapidly exploring Random Tree)** is an efficient planning method in multi-dimensional space.
         It begins with an initial point as the root node and, through random sampling, expands the tree by adding leaf nodes. This process results in the creation of a random exploration tree. When the leaf nodes of this random tree include the target point or enter the target area, a path from the initial point to the target point can be found within the random tree.
         
         <div style="margin: auto;" align="center">
@@ -76,7 +77,7 @@ Navigation plays a key role in the functionality of mobile robots, a technology 
         </div>
 
 - **Local path planning** does not demand comprehensive information about the entire environment. Its focus is on maneuvering the robot around obstacles in its immediate vicinity and adjusting the path based on real-time state information from sensors. Real-world applications of local path planning include tasks like tracking and obstacle avoidance.
-    - **Real-Time Path Planning Algorithm:** Compared to **A***, **D*** is different in that its cost computation may change during the algorithm’s execution, primarily addressing path planning problems based on assumption. As the robot progresses along a path, it observes new map information (such as unknown obstacles), adding this information to its map and, if necessary, recalculating the new shortest path from its current position to the specified target. It repeats this process until reaching the target position or determining that reaching the target is not feasible.
+    - **Real-Time Path Planning Algorithm:** Compared to **A\***, **D\*** is different in that its cost computation may change during the algorithm’s execution, primarily addressing path planning problems based on assumption. As the robot progresses along a path, it observes new map information (such as unknown obstacles), adding this information to its map and, if necessary, recalculating the new shortest path from its current position to the specified target. It repeats this process until reaching the target position or determining that reaching the target is not feasible.
 - **Reinforcement learning** can be employed for both global and local path planning. Navigation strategies can be effectively trained based on constructed environment models, enabling robots to adapt to dynamic environments. Through the adjustment of training objectives and reward functions, robot agents can be trained to learn various planning tasks. However, as the path planning policy is trained through trial and error, real-world reinforcement learning also requires consideration of safety, efficiency, and generalization to diverse environments.
 
 In addition to path planning algorithms, building maps through perceptual information is crucial. **SLAM (Simultaneous Localization and Mapping)** technology accomplishes the self-localization of the robot and constructs environmental maps. Furthermore, using the fusion of various sensor information, it can accurately reconstruct the environment in three dimensions.
