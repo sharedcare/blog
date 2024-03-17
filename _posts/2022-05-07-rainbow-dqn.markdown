@@ -6,7 +6,6 @@ categories: intro
 mathjax: True
 mathjax_autoNumber: True
 ---
-# DQN is All You Need
 
 Rainbow is a method to combine all six improvements in Deep Q-Network(DQN). Since the emergence of DQN, scholars have proposed various improvements to it. This post will focus on six of the major improvements, which are eventually integrated into the **Rainbow** model.
 

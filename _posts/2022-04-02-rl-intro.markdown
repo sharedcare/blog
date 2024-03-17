@@ -9,8 +9,6 @@ mathjax: true
 mathjax_autoNumber: true
 ---
 
-# Introduction
-
 In the real world, many problems can be formed through **Reinforcement Learning(RL)**. A typical **RL** problem generally consists of an **agent** that makes the decision and the **environment** where the **agent** is surrounded. This post will go over some important basics from Sutton and Button's **Reinforcement Learning** book and introduce several of the classic **RL** approaches.
 
 ## Markov Decision Process

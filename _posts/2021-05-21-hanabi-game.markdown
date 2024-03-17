@@ -6,8 +6,6 @@ description: Recommend a fun and promising board game - Hanabi. Unlike other com
 comment_id: 4
 ---
 
-# Intro
-
 Hanabi(花火) originally means "fireworks" in Japanese. As a common Japanese cultural symbol, it was used by a French game designer Antoine Bauza to create a forward-thinking card game. Unlike most of the popular competitive card games on the market, Hanabi game is designed as a cooperative game. 
 
 The rules of the game are simple, yet cleverly constructed to create a complete system. The core of the game lies in the information, but no one has the complete information. So this game has to be played as a group, with all players really and truly committed to the game. This may seem simple, but in reality many cooperative games fail to do this. In some games it is easy for one player to direct the other players to carry out the action. In Hanabi, players are oonly allowed to exchange very little information which means the players do not have all the knowledge available to make a good decision. Players cannot see their own cards and they have to infer the intentions of other players through limited hints. That's why the Hanabi game is unique as a imperfect information cooperative game.

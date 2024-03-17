@@ -9,7 +9,6 @@ mathjax: true
 mathjax_autoNumber: true
 ---
 
-# Intro
 On Tesla’s AI Day (September 30th, 2022), the company unveiled its first humanoid robot, offering a glimpse into the future of AI-powered robotics. Leveraging advanced perception techniques from its self-driving architecture, Tesla has integrated this technology into its robotics.
 <div style="margin: auto;" align="center">
     <img class="image image--xl" style="width: 32em;" src="/assets/imgs/2023-10-05-ai-robot/optimus.jpeg"/> 
